@@ -3,6 +3,6 @@
 int main() {
     double a;
     scanf("%lf",&a);
-    printf("Entered output: %.4lf",a);
+    printf("Expected output: %.4lf",a);
     return 0;
 }
