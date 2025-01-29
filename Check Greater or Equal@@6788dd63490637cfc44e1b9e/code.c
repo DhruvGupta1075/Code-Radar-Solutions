@@ -4,6 +4,6 @@ int main() {
     int a;
     scanf("%d",&a);
     if (a>b) printf("Yes");
-    else if printf("No");
+    else printf("No");
     return 0;
 }
