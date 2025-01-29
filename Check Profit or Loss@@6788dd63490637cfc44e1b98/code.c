@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    int cp,sp;
+    scanf("%d %d",&cp,&sp);
+    if (sp-cp>0) printf("Profit");
+    else printf("Loss");
     return 0;
 }
