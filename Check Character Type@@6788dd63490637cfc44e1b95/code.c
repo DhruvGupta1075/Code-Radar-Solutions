@@ -10,7 +10,7 @@ int main() {
         else printf("Consonant");
     }
     else if (isdigit(chr)) printf("Digit");
-    else printf("Special  Character");
+    else printf("Special Character");
     
     return 0;
 }
