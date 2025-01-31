@@ -10,21 +10,18 @@ int main() {
         case '-':
             if (n1>n2){
                 printf("%.0f",n1-n2);
-                break;
             }
             else printf("error");
+            break;
         case '*':
             printf("%.0f",n1*n2);
             break;
         case '/':
-            if (n1>n2){
-                printf("%.0f",n1/n2);
-                break;
-            }
-            else if(n1==0 || n2==0){
+            if(n1==0 || n2==0){
                 printf("error");
             }
-            else printf("erorr");
+            else printf("%0.f",n1/n2);
+            break;
         default:
             printf("error");
     }
