@@ -21,7 +21,7 @@ int main() {
                 printf("%.0f",n1/n2);
                 break;
             }
-            else if(n1==0 ||n2==0){
+            else if(n1==0 || n2==0){
                 printf("error");
             }
             else printf("erorr");
