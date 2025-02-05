@@ -5,8 +5,10 @@ int main() {
     scanf("%d",&a);
     for  (int i=1;i<=a;i++){
         for (int j=1;j<=a;j++){
-            if ((j==1) || (j==n) ||(i==n) || (i==1)) printf("* ");
-            else printf(" ");
+            if ((j==1) || (j==n) ||(i==n) || (i==1)) 
+                printf("*");
+            else 
+                printf(" ");
         }
         printf("\n");
     }
