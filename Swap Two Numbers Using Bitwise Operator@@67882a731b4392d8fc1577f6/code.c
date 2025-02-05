@@ -6,6 +6,6 @@ int main() {
     swap=a;
     a=b;
     b=swap;
-    print("%d %d",a,b);
+    printf("%d %d",a,b);
     return 0;
 }
