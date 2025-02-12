@@ -9,6 +9,7 @@ int main(){
             printf("%d ",t);
             t=!t;
         }
+        t=!t;
         printf("\n");
     }
 }
