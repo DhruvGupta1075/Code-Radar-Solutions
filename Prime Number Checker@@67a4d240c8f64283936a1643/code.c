@@ -1,4 +1,4 @@
-void isPrime(a){
+int isPrime(int a){
     int ans;
     if (a==2) return 1;
     else {
