@@ -9,7 +9,7 @@ int isPrime(int a){
             }
             else ans=1;
         }
-        if (ans==1) return 1;
+        if (ans==1) return 0;
         else return 0;
     }
 }
