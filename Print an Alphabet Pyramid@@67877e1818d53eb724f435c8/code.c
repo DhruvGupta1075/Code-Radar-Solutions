@@ -10,8 +10,7 @@ int main() {
         for (char a='A';a<'A'+i;a++){
             printf("%c ",a);
         }
-        
+        printf("\n");
     }
-    printf("\n");
     return 0;
 }
