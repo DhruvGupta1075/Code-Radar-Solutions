@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,swap;
+    int a,b;
     scanf("%d %d",&a,&b);
-    swap=a;
-    a=b;
-    b=swap;
-    printf("%d %d",a,b);
+    a=a^b;
+    b=a^b;
+    a=a^b;
+    printf("%d,%d",a,b);
     return 0;
 }
