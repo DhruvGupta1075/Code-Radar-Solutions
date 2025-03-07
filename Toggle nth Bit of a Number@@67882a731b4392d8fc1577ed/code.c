@@ -2,7 +2,7 @@
 int main(){
     int n,i;
     scanf("%d %d",&n,&i);
-    int mask=1<<i;
-    int res=n|mask;
+    int mask=1<<n;
+    int res=n^mask;
     printf("%d",res);
 }
