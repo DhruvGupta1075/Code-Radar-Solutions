@@ -8,7 +8,7 @@ int main(){
     }
     while(d>0){
         bin[i]=d%2;
-        d-d/2;
+        d=d/2;
         i++;
     }
     for (int j = i - 1; j >= 0; j--){
