@@ -2,5 +2,6 @@
 int main(){
     int a,n;
     scanf("%d %d",&a,&n);
-    printf("%d",a|0);
+    int b=a|0;
+    printf("%d",b);
 }
