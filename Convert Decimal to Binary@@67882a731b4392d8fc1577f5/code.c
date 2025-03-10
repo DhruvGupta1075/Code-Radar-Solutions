@@ -11,13 +11,13 @@ int MyPow(int a,int b){
         return a*MyPow(a,b-1);
     }
 int main(){
-    int d,ans,i=0;
-    scanf("%d",&d);
+    float d,ans,i=0;
+    scanf("%f",&d);
     while (d!=0){
-        int bit=d&1;
+        float bit=d&1;
         ans=(bit*MyPow(10,i))+ans;
         i++;
         d=d>>1;
     }
-    printf("%d",ans);
+    printf("%f",ans);
 }
