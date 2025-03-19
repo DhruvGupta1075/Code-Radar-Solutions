@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <limits.h>
 int maxarr(int array[],int size){
-    int max = INT_MIN;
+    int maxi = INT_MIN;
     for (int i=0 ;i<size ;i++){
-        max=max(max,array[i]);
+        maxi =max(maxi,array[i]);
     }
 }
 int minarr(int array[],int size){
-    int min = INT_MAX;
+    int mini = INT_MAX;
     for (int i=0 ;i<size ;i++){
-        min=min(min,array[i]);
+        mini=min(mini,array[i]);
     }
 }
 int main(){
