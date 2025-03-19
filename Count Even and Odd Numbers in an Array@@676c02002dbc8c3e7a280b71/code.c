@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,arr[],even=0,odd=0;
+    int n,arr[100],even=0,odd=0;
     sacnf("%d",&n);
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
