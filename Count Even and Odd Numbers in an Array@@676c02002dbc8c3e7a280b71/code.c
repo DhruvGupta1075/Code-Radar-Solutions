@@ -7,7 +7,7 @@ int main(){
         if (arr[i]%2==0) even++;
         else odd++;
     }
-    printf("%d",even);
+    printf("%d ",even);
     printf("%d",odd);
     
 }
