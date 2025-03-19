@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 int maxarr(int array[],int size){
     int max = INT_MIN;
     for (int i=0 ;i<size ;i++){
