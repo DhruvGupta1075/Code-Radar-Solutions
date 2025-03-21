@@ -16,7 +16,7 @@ int minarr(int array[],int size){
             mini=array[i];
         }
     }
-    return min;
+    return mini;
 }
 int main(){
     int size;
