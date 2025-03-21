@@ -7,8 +7,9 @@ int getmax(int num[],int size){
         if (num[i]>max){
             max=num[i];
         }
-        printf("%d",max);
+
     }
+    printf("%d",max);
 }
 
 int getmin(int num[],int size){
@@ -17,8 +18,8 @@ int getmin(int num[],int size){
         if (num[i]>min){
             min=num[i];
         }
-        printf("%d ",min);
     }
+    printf("%d ",min);
 }
 
 int main(){
