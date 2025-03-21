@@ -3,14 +3,20 @@
 int maxarr(int array[],int size){
     int maxi = INT_MIN;
     for (int i=0 ;i<size ;i++){
-        maxi =max(maxi,array[i]);
+        if (num[i]>max){
+            max=num[i];
+        }
     }
+    return max;
 }
 int minarr(int array[],int size){
     int mini = INT_MAX;
     for (int i=0 ;i<size ;i++){
-        mini=min(mini,array[i]);
+        if (num[i]<min){
+            min=num[i];
+        }
     }
+    return min;
 }
 int main(){
     int size;
