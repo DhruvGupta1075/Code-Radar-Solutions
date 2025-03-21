@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-int getmax(int num[100],int size){
+int getmax(int num[],int size){
     int max= INT_MIN;
     for (int i=0;i<size;i++){
         if (num[i]>max){
@@ -11,7 +11,7 @@ int getmax(int num[100],int size){
     }
 }
 
-int getmin(int num[100],int size){
+int getmin(int num[],int size){
     int min= INT_MAX;
     for (int i=0;i<size;i++){
         if (num[i]>min){
@@ -22,12 +22,13 @@ int getmin(int num[100],int size){
 }
 
 int main(){
-    int n,num[100];
+    int n;
     scanf("%d",&n);
+    int num[n];
     for (int i = 0; i< n; i++){
         scanf("%d",&num[i]);
     }
 
-getmin(num[100],n);
-getmax(num[100],n);
+getmin(num,n);
+getmax(num,n);
 }
