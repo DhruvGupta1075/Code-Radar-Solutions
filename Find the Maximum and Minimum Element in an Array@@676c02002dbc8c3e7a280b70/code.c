@@ -3,8 +3,8 @@
 int maxarr(int array[],int size){
     int maxi = INT_MIN;
     for (int i=0 ;i<size ;i++){
-        if (num[i]>max){
-            max=num[i];
+        if (array[i]>max){
+            max=array[i];
         }
     }
     return max;
@@ -12,8 +12,8 @@ int maxarr(int array[],int size){
 int minarr(int array[],int size){
     int mini = INT_MAX;
     for (int i=0 ;i<size ;i++){
-        if (num[i]<min){
-            min=num[i];
+        if (array[i]<min){
+            min=array[i];
         }
     }
     return min;
