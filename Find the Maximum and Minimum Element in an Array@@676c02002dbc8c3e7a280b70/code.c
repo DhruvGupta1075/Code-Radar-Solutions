@@ -3,17 +3,17 @@
 int maxarr(int array[],int size){
     int maxi = INT_MIN;
     for (int i=0 ;i<size ;i++){
-        if (array[i]>max){
-            max=array[i];
+        if (array[i]>maxi){
+            maxi=array[i];
         }
     }
-    return max;
+    return maxi;
 }
 int minarr(int array[],int size){
     int mini = INT_MAX;
     for (int i=0 ;i<size ;i++){
-        if (array[i]<min){
-            min=array[i];
+        if (array[i]<mini){
+            mini=array[i];
         }
     }
     return min;
