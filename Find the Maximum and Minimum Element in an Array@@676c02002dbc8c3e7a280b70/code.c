@@ -15,7 +15,7 @@ int getmax(int num[],int size){
 int getmin(int num[],int size){
     int min= INT_MAX;
     for (int i=0;i<size;i++){
-        if (num[i]>min){
+        if (num[i]<min){
             min=num[i];
         }
     }
