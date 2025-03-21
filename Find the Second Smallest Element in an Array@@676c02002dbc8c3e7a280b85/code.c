@@ -11,7 +11,7 @@ int getsec(int arr[],int size){
     int secmin=INT_MAX;
     for (int i=0;i<size;i++){
         if (arr[i]<secmin){
-            if(min<INT_MAX){
+            if(min==INT_MAX){
                 continue;
             }
             secmin=arr[i];
