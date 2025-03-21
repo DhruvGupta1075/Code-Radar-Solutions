@@ -1,30 +1,33 @@
 #include <stdio.h>
 #include <limits.h>
-int maxarr(int array[],int size){
-    int maxi = INT_MIN;
-    for (int i=0 ;i<size ;i++){
-        if (array[i]>maxi){
-            maxi=array[i];
+
+int getmax(num[100],size){
+    int max= INT_MIN;
+    for (int i=0;i<size;i++){
+        if (num[i]>max){
+            max=num[i];
         }
+        printf("%d",max);
     }
-    return maxi;
 }
-int minarr(int array[],int size){
-    int mini = INT_MAX;
-    for (int i=0 ;i<size ;i++){
-        if (array[i]<mini){
-            mini=array[i];
+
+int getmin(num[100],size){
+    int min= INT_MAX;
+    for (int i=0;i<size;i++){
+        if (num[i]>min){
+            min=num[i];
         }
+        printf("%d ",min);
     }
-    return mini;
 }
+
 int main(){
-    int size;
-    scanf("%d",&size);
-    int arr[1000];
-    for (int i=0;i<size ;i++){
-        scanf("%d",&arr[i]);
+    int n,num[100];
+    scanf("%d",&n);
+    for (int i = 0; i< n; i++){
+        scanf("%d",&num[i]);
     }
-    printf("%d ",minarr(arr[1000],size));
-    printf("%d",maxarr(arr[1000],size));
 }
+
+getmin(num[100],n);
+getmax(num[100],n);
