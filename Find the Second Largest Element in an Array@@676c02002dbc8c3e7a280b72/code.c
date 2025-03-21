@@ -4,8 +4,20 @@
 int getsec(int num[],int size){
     int max=INT_MIN;
     for (int i=0;i<size ;i++){
-        if (arr[i]>max)
+        if (arr[i]>max){
+            max=arr[i];
+        }
     }
+    int secmax=INT_MIN;
+    for (int i=0;i<size ;i++){
+        if (arr[i]>secmax){
+            if (arr[i]==max){
+                continue;
+            }
+            secmax=arr[i];
+        }
+    }
+    return secmax;
 }
 int main(){
     int n;
@@ -14,4 +26,5 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    printf("%d",getsec(arr,n));
 }
