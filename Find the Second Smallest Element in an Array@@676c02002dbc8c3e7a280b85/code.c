@@ -12,7 +12,7 @@ int getsec(int arr[],int size){
     for (int i=0;i<size;i++){
         if (arr[i]<secmin){
             if(min<INT_MAX){
-            continue;
+                continue;
             }
             secmin=arr[i];
         }
