@@ -10,11 +10,17 @@ void getsec(int arr[],int size){
     }
     int secmin=INT_MAX;
     for (int i=0;i<size;i++){
-        if(min<INT_MAX){
+        if (arr[i]<secmin){
+            if(min<INT_MAX){
             continue;
+            }
+            secmin=arr[i];
         }
-        secmin=
     }
+    if (secmin==INT_MAX){
+        printf("-1");
+    }
+    printf("%d",secmin);
 }
 
 int main(){
@@ -24,5 +30,5 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
+    getsec(arr,n);
 }
