@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 
-void getsec(int arr[],int size){
+int getsec(int arr[],int size){
     int min=INT_MAX;
     for(int i=0;i<size;i++){
         if(arr[i]<min){
@@ -18,9 +18,9 @@ void getsec(int arr[],int size){
         }
     }
     if (secmin==INT_MAX){
-        printf("-1");
+        return "-1";
     }
-    printf("%d",secmin);
+    return secmin;
 }
 
 int main(){
@@ -30,5 +30,5 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    getsec(arr,n);
+    printf("%d",getsec(arr,n));
 }
