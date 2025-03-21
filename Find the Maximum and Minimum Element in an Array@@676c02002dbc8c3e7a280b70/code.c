@@ -27,7 +27,7 @@ int main(){
     for (int i = 0; i< n; i++){
         scanf("%d",&num[i]);
     }
-}
 
 getmin(num[100],n);
 getmax(num[100],n);
+}
