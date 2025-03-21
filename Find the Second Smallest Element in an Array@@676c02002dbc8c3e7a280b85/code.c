@@ -18,7 +18,7 @@ int getsec(int arr[],int size){
         }
     }
     if (secmin==INT_MAX){
-        return "-1";
+        return -1;
     }
     return secmin;
 }
