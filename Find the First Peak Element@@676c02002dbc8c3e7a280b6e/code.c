@@ -6,9 +6,6 @@ int peak(int arr[],int size){
             return arr[i];
             break;
         }
-        else {
-            return -1;
-        }
     }
 }
 
