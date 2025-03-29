@@ -9,7 +9,7 @@ int count(int arr[],int size){
         if (c>=(size/2)) {
             return arr[i];
         }
-        if (c==size/2) return
+        if (c==size/2) return -1;
     }
     return -1;
     
