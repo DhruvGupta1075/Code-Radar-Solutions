@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int peak(int arr[],int size){
-    int max;
     for (int i=0;i<size;i++){
         if (arr[i]>arr[i+1] && arr[i]>arr[i-1]){
             return arr[i];
             break;
         }
-        
+        else {
+            return -1;
+        }
     }
 }
 
