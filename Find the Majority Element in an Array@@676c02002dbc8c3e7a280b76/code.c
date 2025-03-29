@@ -5,10 +5,13 @@ int count(int arr[],int size){
     for (int i=0;i<size;i++){
         if (arr[i]==arr[i+1]){
             c++;
-            
         }
+        if (c>size/2) {
+            return arr[i];
+        }
+        else return -1;
     }
-    return c;
+    
 }
 
 int main(){
