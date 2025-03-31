@@ -10,12 +10,11 @@ int count(int arr[],int size){
         }
         if (c>size/2){
             ans =arr[i];
-            return ans;
         }
         
     }
-    return -1;
-    
+    if (ans!=0) return ans;
+    else return -1;
 }
 
 int main(){
