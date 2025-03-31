@@ -13,7 +13,7 @@ int main(){
             if (arr[i]==arr[j]){
                 c++;
             }
-            else if (c>n/2){
+            if (c>n/2){
                 printf("%d",arr[i]);
                 return 0;
             }
