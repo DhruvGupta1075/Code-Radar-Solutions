@@ -10,10 +10,9 @@ int main(){
     int ans;
     for (int i=0;i<n;i++){
         int c=0;
-        for (int j=0;j<n;j++){
+        for (int j=i+1;j<n;j++){
             if (arr[i]==arr[j]){
                 c++;
-                visit[j]=1;
             }
         }
         printf("%d %d\n",arr[i],c);
