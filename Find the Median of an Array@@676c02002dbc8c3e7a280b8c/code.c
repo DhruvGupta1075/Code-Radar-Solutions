@@ -11,7 +11,7 @@ int main(){
             median=arr[n/2];
         }
         else {
-            ans=arr[n/2]+arr[n-1-(n/2)];
+            ans=arr[n/2]+arr[(n/2)+1];
             median=ans/2;
         }
     }
