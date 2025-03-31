@@ -11,5 +11,5 @@ int main(){
             median=arr[n/2];
         }
     }
-    
+    printf("%d",median);
 }
