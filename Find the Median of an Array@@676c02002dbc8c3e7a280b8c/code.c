@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n,arr[100],median;
+    int n,arr[100],ans,median;
     scanf("%d",&n);
     for (int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
@@ -11,7 +11,8 @@ int main(){
             median=arr[n/2];
         }
         else {
-            median=(arr[n/2]+arr[n-1-(n/2)])/2;
+            ans=arr[n/2]+arr[n-1-(n/2)];
+            median=ans/2;
         }
     }
     printf("%d",median);
