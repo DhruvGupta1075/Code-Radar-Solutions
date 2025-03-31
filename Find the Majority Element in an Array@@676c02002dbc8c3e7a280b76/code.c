@@ -7,7 +7,7 @@ int main(){
     for  (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int c=1,ans,majority=n/2;
+    int c=0,ans,majority=n/2;
     for (int i=0;i<n;i++){
         for (int j=0;j<n;j++){
             if (arr[i]==arr[j]){
