@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n;
+    int n,ans;
     scanf("%d",&n);
     int arr[n];
     for  (int i=0;i<n;i++){
@@ -14,11 +14,11 @@ int main(){
                 c++;
             }
             if (c>n/2){
-                printf("%d",arr[i]);
-                return 0;
+                ans=arr[i];
             }
         }
         
     }
-    printf("-1");
+    if (ans!=0) printf("%d",ans);
+    else printf("-1");
 }
