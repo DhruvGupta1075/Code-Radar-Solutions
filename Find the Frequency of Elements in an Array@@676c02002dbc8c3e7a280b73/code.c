@@ -16,6 +16,6 @@ int main(){
             }
         }
         ans=c;
-        printf("%d %d\n",arr[i],ans);
+        if (ans!=0) printf("%d %d\n",arr[i],ans);
     }
 }
