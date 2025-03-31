@@ -4,7 +4,7 @@ int count(int arr[],int size){
     int c=1,ans;
     for (int i=0;i<size;i++){
         for (int j=0;j<size;j++){
-            if (arr[i]==arr[i+1]){
+            if (arr[i]==arr[j]){
                 c++;
             }
         }
