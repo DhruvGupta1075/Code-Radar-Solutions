@@ -13,7 +13,7 @@ int main(){
             if (arr[i]==arr[j]){
                 c++;
             }
-            if (c>n/2){
+            if (c>=n/2){
                 ans=arr[i];
             }
         }
