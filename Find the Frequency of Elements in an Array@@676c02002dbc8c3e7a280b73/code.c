@@ -10,7 +10,7 @@ int main(){
     }
     for (int i=0;i<n;i++){
         if (visit[i]) continue;
-        int c=1;
+        int c=0;
         for (int j=0;j<n;j++){
             if (arr[i]==arr[j]){
                 c++;
