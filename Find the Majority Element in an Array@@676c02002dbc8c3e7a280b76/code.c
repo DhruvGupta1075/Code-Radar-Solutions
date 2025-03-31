@@ -8,13 +8,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int c=1,ans;
-    for (int i=0;i<size;i++){
-        for (int j=0;j<size;j++){
+    for (int i=0;i<n;i++){
+        for (int j=0;j<n;j++){
             if (arr[i]==arr[j]){
                 c++;
             }
         }
-        if (c>size/2){
+        if (c>n/2){
             ans =arr[i];
         }
         
