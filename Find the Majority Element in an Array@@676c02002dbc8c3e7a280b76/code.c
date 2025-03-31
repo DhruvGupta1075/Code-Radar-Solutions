@@ -6,10 +6,10 @@ int count(int arr[],int size){
         if (arr[i]==arr[i+1]){
             c++;
         }
-        if (c>(size/2)) {
+        else {
             return arr[i];
         }
-        if (c==(size/2)) return -1;
+        
     }
     return -1;
     
