@@ -5,6 +5,9 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     int visit[n];
+    for (int i = 0; i < n; i++) {
+        visit[i] = 0;
+    }
     for  (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
