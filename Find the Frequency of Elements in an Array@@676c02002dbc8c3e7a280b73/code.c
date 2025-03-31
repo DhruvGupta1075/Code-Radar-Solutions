@@ -16,7 +16,6 @@ int main(){
                 visit[j]=1;
             }
         }
-        ans=c;
-        if (ans!=0) printf("%d %d\n",arr[i],ans);
+        if (ans!=0) printf("%d %d\n",arr[i],c);
     }
 }
