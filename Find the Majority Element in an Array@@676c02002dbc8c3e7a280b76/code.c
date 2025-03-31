@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int count(int arr[],int size){
-    int c=1;
+    int c=1,ans;
     for (int i=0;i<size;i++){
-        if (arr[i]==arr[i+1]){
-            c++;
+        for (int j=0;j<size;j++){
+            if (arr[i]==arr[i+1]){
+                c++;
+            }
         }
-        else {
-            return arr[i];
+        if (c>size/2){
+            ans =arr[i];
+            return ans;
         }
         
     }
