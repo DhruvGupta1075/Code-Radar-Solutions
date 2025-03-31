@@ -12,7 +12,7 @@ int main(){
             median=arr[mid];
         }
         else {
-            ans=arr[mid]+arr[mid+1];
+            ans=arr[mid-1]+arr[mid-2];
             median=ans/2;
         }
     }
