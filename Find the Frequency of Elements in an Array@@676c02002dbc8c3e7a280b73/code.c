@@ -16,6 +16,6 @@ int main(){
             }
         }
         ans=c;
+        printf("%d %d",arr[i],ans);
     }
-    printf("%d",ans);
 }
