@@ -6,6 +6,7 @@ int digitsum(int num){
         sum+=r;
         num=num/10;
     }
+    return sum;
 }
 int main(){
     int n;
@@ -16,6 +17,6 @@ int main(){
         arr[i]=digitsum(arr[i]);
     }
     for  (int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
