@@ -1,5 +1,6 @@
 #include <stdio.h>
 int digitsum(int num){
+    if (num<0) num=num*(-1);
     int sum=0,r;
     while(num!=0){
         r=num%10;
