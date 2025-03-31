@@ -2,7 +2,7 @@
 int digitsum(int num){
     int sum=0,r;
     while(num!=0){
-        r=r%num;
+        r=num%10;
         sum+=r;
         num=num/10;
     }
