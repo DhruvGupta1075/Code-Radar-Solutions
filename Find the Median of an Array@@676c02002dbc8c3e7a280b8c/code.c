@@ -6,12 +6,13 @@ int main(){
     for (int i = 0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int mid=n/2;
     for (int i=0;i<n;i++){
         if (n/2!=0){
-            median=arr[n/2];
+            median=arr[mid];
         }
         else {
-            ans=arr[n/2]+arr[(n/2)+1];
+            ans=arr[mid]+arr[mid+1];
             median=ans/2;
         }
     }
