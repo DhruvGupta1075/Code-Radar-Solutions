@@ -11,10 +11,9 @@ int main(){
         int c=0;
         for (int j=i+1;j<n;j++){
             if (arr[i]==arr[j]){
-                c++;
+                printf("%d",arr[i]);
                 break;
             }
         }
-        printf("%d",arr[i]);
     }
 }
