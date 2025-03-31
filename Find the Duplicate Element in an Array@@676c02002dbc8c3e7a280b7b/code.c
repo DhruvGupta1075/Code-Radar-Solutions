@@ -5,7 +5,7 @@ int duplicate(int arr[],int n){
         sum+=arr[i];
     }
     for (int j=0;j<n-1;j++){
-        s2+=j;
+        s2+=arr[j];
     }
     element=sum-s2;
     return element;
