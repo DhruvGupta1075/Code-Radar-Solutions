@@ -14,7 +14,7 @@ int main(){
             break;
         }
         else {
-            printf("-1");
+            ans=-1;
         }
     }
     printf("%d",ans);
